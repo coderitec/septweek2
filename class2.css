@@ -1,5 +1,6 @@
 /* class selector */
 .one{
+    color: whitesmoke;
     background-color: aqua;
 }
 
@@ -23,3 +24,23 @@ ol > li.one{
 }
 
 /* pseudo classes */
+li:first-of-type, li:last-of-type{
+    border: 20px solid black;
+}
+
+li:nth-of-type(5){
+    border: 20px solid crimson;
+
+}
+
+li:nth-of-type(even){
+    border: 20px solid moccasin;
+}
+
+li:nth-of-type(2n+1){
+    border: 20px dashed moccasin;
+}
+
+li:nth-of-type(2n+4){
+    border: 20px dashed green;
+}
