@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>last quarter food menu</title>
+    <style>
+        table{
+            width: 70%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+        table tr{
+            border: 20px solid blue;
+        }
+        table th, table td{
+            text-align: center;
+            border-inline: 10px solid red;
+            padding-block: 25px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>last quarter food menu </caption>
+        <colgroup>
+            <col>
+            <col>
+            <col>
+            <col>
+        </colgroup>
+        <!-- tbody>(tr>th+td*3)*5 -->
+        <tbody>
+            <tr>
+                <th scope="row">monday </th>
+                <td rowspan="2">a </td>
+                <td>b </td>
+                <td>c</td>
+            </tr>
+            <tr>
+                <th scope="row">tuesday </th>
+                <!-- <td>a </td> -->
+                <td>p </td>
+                <td>y </td>
+            </tr>
+            <tr>
+                <th scope="row">wednesday</th>
+                <td rowspan="2">k </td>
+                <td>b</td>
+                <td>b </td>
+            </tr>
+            <tr>
+                <th scope="row">thursday </th>
+                <!-- <td>k </td> -->
+                <td>c </td>
+                <td>x </td>
+            </tr>
+            <tr>
+                <th scope="row">friday </th>
+                <td colspan="3">v</td>
+                <!-- <td>v </td>
+                <td>v</td> -->
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">eat responsibly, food no dey finish</td>
+            </tr>
+        </tfoot>
+        <thead>
+            <tr>
+                <th scope="col">days </th>
+                <th scope="col">breakfast</th>
+                <th scope="col">lunch </th>
+                <th scope="col">dinner</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+</html>
