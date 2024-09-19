@@ -1,0 +1,25 @@
+/* class selector */
+.one{
+    background-color: aqua;
+}
+
+.two{
+    background-color: fuchsia;
+}
+
+p{
+    background-color: gray;
+}
+
+p.one{
+    background-color: orange;
+}
+ol > li.one{
+    background-color: palegreen;
+}
+
+.one.two{
+    background-color: blue;
+}
+
+/* pseudo classes */

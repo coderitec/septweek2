@@ -47,8 +47,8 @@ h1 + p{
  *{
     /* border: 2px solid red; */
     font-weight: normal;
-    margin: 0;
-    text-decoration: none;
+    /* margin: 0; */
+    /* text-decoration: none; */
     padding: 0;
     color: inherit;
  }
